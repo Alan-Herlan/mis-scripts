@@ -26,7 +26,7 @@ def organizar():
         extension = extension.lower()
         
         encontrado = False
-        for carpeta, lista_ext en EXTENSIONES.items():
+        for carpeta, lista_ext in EXTENSIONES.items():
             if extension in lista_ext:
                 ruta_destino = os.path.join(ruta_descargas, carpeta)
                 
